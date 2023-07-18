@@ -1,0 +1,330 @@
+@media screen and (max-width:1094px) {
+    .head-foot1{
+        font-size: 5vw;
+        line-height: 4.7vw;
+    }
+    .head-foot2 p{
+        position: relative;
+        font-size: 5vw;
+        line-height:4.5vw;
+    }
+    .head-foot2 p img{
+        position: absolute;
+        width: 3vw;
+        left: 9vw;
+        top: 3.2vw;
+    }
+    .head-foot2 p:hover, .head-foot1 p:hover{
+        font-size: 5.3vw;
+    }
+    .head-foot2 p:hover > img{
+        width: 3.3vw;
+        left: 9.35vw;
+        top: 3vw;
+    }
+    .head-foot3 img{
+        width: 30vw;
+    }
+    .head-foot3 img:hover{
+        width: 33vw;
+    }
+    .centre-mid{
+        height: 590px;
+    }
+}
+@media screen and (max-width:979px){
+    .head{
+        height: 52.3vw;
+    }
+    .head-rotator{
+        width: 14.2%;
+    }
+    .head-face{
+        width: 17%;
+    }
+    .head-blank{
+        width: 20%;
+    }
+    .centre-head-text{
+        font-size: 1.2vw;
+        height: 40%;
+    }
+    .centre-head-link{
+        height: 30%;
+    }
+    .centre-head-pros, .centre-head-faq, .centre-head-his, .centre-head-dop{
+        font-size: 2.2vw;
+        width: 21.5vw;
+        height: 6.8vw;
+    }
+    .centre-head-his{
+        left: 8.2vw;
+    }
+    .centre-head-faq{
+        top: 7vw;
+        left: 16.45vw;
+    }
+    .centre-head-dop{
+        left: 23.6vw;
+    }
+    .centre-head-pros:hover, .centre-head-faq:hover, .centre-head-his:hover, .centre-head-dop:hover{
+        font-size: 2.7vw;
+    }
+    .centre-head-heading{
+        font-size: 4.7vw;
+    }
+    .centre-head-text2{
+        font-size: 1.2vw;
+    }
+    .centre-head{
+        height: 80vw;
+    }
+    .centre-mid{
+        height: 67vw;
+    }
+    .centre-mid1-text{
+        width: 60%;
+    }
+    .foot-div1{
+        width: 80%;
+    }
+    .head-fix-back{
+        height: 48px;
+        width: 48px;
+    }
+    .head-fix-fore{
+        width: 24px;
+        height: 28px;
+    }
+}
+@media screen and (max-width:720px) {
+    .centre-head-faq{
+        top: 10.5vw;
+    }    
+    .centre-head-his{
+        top: 20vw;
+    }
+    .centre-mid{
+        height: 70vw;
+    }
+    .centre-mid1-text{
+        font-size: 1.5vw;
+    }  
+    .centre-base-img{
+        height: 19vw;
+    } 
+    .foot-div2-button{
+        height: 3.2vw;
+    }
+    .foot-div3-icon img{
+        width: 20px;
+    }
+}
+@media screen and (max-width:590px) {
+    .head-rotator{
+        display: none;
+    }
+    .head-face{
+        display: none;
+    }
+    .head-line{
+        display: block;
+    }
+    .nav-logo{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .nav-text ul li {
+        color: white;
+        border-bottom: 1px solid;
+        line-height: 70px;
+        margin-left: -30px;
+        font-size: 38px;
+    }
+    .nav-text ul li a {
+        color: #3cb7fa;
+    }
+    .nav-text ul li:hover, .nav-text ul li a:hover{
+        color: white;
+    }
+    .head-base{
+        height: 60px;
+        font-size: 23px;
+        line-height: 64px;
+    }
+    .head-foot{
+        flex-direction: column;
+    }
+    .head-foot1, .head-foot2, .head-foot3{
+        width: 100%;
+        height: 90vw;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .head-foot1 p:hover, .head-foot2 p:hover{
+        font-size: 46px;
+    }
+    .head-foot2 p:hover > img{
+        left: 80px;
+        top: 23px;
+        width: 32px;
+    }
+    .head-foot3 img:hover{
+        width: 270px;
+    }
+    .head-foot2 p{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .head-foot2 p img{
+        width: 30px;
+        left: 70px;
+        top: 25px;
+    }
+    .head-foot3 img{
+        width: 250px;
+    }
+    .centre{
+        margin-top: 280vw;
+    }
+    .centre-head{
+        height: 100vw;
+        flex-direction: column-reverse;
+    }
+    .centre-head-blank{
+        width: 0px;
+    }
+    .centre-head-right{
+        height: 25%;
+        align-items: center;
+        margin-left: -70px;
+    }
+    .centre-head-left{
+        align-items: center;
+        width: 100%;
+    }
+    .centre-head-text{
+        font-size: 1.5vw;
+        width: 70%;
+    }
+    .centre-head-link{
+        width: 32%;
+        height: 40%;
+    }
+    .centre-head-pros, .centre-head-faq, .centre-head-his, .centre-head-dop{
+        font-size: 2.2vw;
+        width: 21.5vw;
+        height: 6.8vw;
+    }
+    .centre-head-pros{
+        top: 17vw;
+    }
+    .centre-head-his{
+        left: 8.2vw;
+        top: 22vw;
+    }
+    .centre-head-faq{
+        top: 14vw;
+        left: 12vw;
+    }
+    .centre-head-dop{
+        top: 19vw;
+        left: 20vw;
+    }
+    .centre-head-pros:hover, .centre-head-faq:hover, .centre-head-his:hover, .centre-head-dop:hover{
+        font-size: 2.7vw;
+    }
+    .centre-head-heading{
+        font-size: 6vw;
+    }
+    .centre-head-text2{
+        font-size: 1.5vw;
+    }
+    .centre-mid{
+        height: 250vw !important;
+    }
+    .centre-mid2-icon-black{
+        width: 30vw;
+    }
+    .centre-mid2-icon{
+        margin-top: -30px;
+    }
+    .centre-mid2-hex{
+        width: 20%;
+    }
+    .centre-mid1{
+        flex-direction: column;
+    }
+    .centre-mid1-heading{
+        width: 50%;
+        text-align: center;
+    }
+    .centre-mid1-text{
+        width: 80%;
+    }
+    .centre-mid2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .centre-base-img{
+        width: 50vw;
+        height: 49vw;
+    }
+    .foot-div3{
+        display: none;
+    }
+    .foot-div1-text3{
+        display: none;
+    }
+    .foot-div1{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        height: 25vw;
+        justify-content: center;
+        font-size: 1.7vw;
+        line-height: 2.3vw;
+    }
+    .foot-div1-text1 ul{
+        padding-inline-start: 0px;
+    }
+    .head-fix{
+        display: none;
+    }
+    .foot-div1-text2{
+        padding-top: 5vw;
+        width: 50%;
+    }
+    .foot-div2{
+        gap: 2vw;
+        margin-bottom: 5vw;
+        justify-content: center;
+    }
+    .foot-div2-input input{
+        width: 30vw;
+        height: 2.5vw;
+        color: #fff;
+        font-size: 2vw;
+        padding: 2vw;
+    }
+    .foot-div2-button{
+        width: 15vw;
+        height: 7.5vw;
+    }
+}
+@media screen and (max-width:499px){
+    .centre-mid{
+        height: 90vh;
+    }
+    .centre-mid1{
+        height: 150px;
+    }
+    .centre-mid2-icon{
+        width: 70%;
+    }
+    .centre-base-img{
+        height: 47vw;
+    }
+}
