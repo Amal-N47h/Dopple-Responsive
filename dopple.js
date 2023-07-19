@@ -8,13 +8,19 @@ face.addEventListener('mouseleave', () => {
 })
 var navBar= document.querySelector('.nav')
 var navLogo = document.querySelector('.nav-logo-foreground')
+var navDisplay = document.querySelector('.nav-display')
+var headFoot = document.querySelector('.head-foot')
 navBar.classList.add('none')
 face.addEventListener('click', () => {
     navBar.classList.remove('none')
+    navDisplay.classList.add('none')
+    headFoot.classList.add('none')
 })
 navLogo.addEventListener('click', () => {
     navBar.classList.add('none')
-    window.scrollTo(0, 0);
+    navDisplay.classList.remove('none')
+    headFoot.classList.remove('none')
+
 })
 var navFore = document.querySelector('.nav-logo-fore')
 var navBack = document.querySelector('.nav-logo-back')

@@ -136,6 +136,9 @@
     .nav-icon{
         display: block;
     }
+    .nav-text{
+        margin-top: -200px;
+    }
     .nav-text ul li {
         color: white;
         border-bottom: 1px solid;
@@ -307,7 +310,7 @@
         height: 2.5vw;
         color: #fff;
         font-size: 2vw;
-        padding: 2vw;
+        padding: 2vw; 
     }
     .foot-div2-button{
         width: 15vw;
