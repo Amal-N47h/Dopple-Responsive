@@ -37,6 +37,8 @@ headLine.addEventListener('click', () => {
 })
 navIcon.addEventListener('click', () => {
     navBar.classList.add('none')
+    navDisplay.classList.remove('none')
+    headFoot.classList.remove('none')
 })
 function showHex(num) {
     let imgElement = document.querySelector('.centre-mid2-hex-image');
