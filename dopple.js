@@ -34,6 +34,8 @@ var headLine = document.querySelector('.head-line')
 var navIcon = document.querySelector('.nav-icon')
 headLine.addEventListener('click', () => {
     navBar.classList.remove('none')
+    navDisplay.classList.add('none')
+    headFoot.classList.add('none')
 })
 navIcon.addEventListener('click', () => {
     navBar.classList.add('none')
